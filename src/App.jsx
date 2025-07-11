@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Cocktils from "./components/Cocktils";
 import About from "./components/About";
 import Art from "./components/Art";
+import Menu from "./components/Menu";
 gsap.registerPlugin(ScrollTrigger,SplitText)
 
 const App = () => {
@@ -15,7 +16,7 @@ const App = () => {
             <Cocktils/>
             <About/>
             <Art/>
-            <div className="h-dvh"></div>
+            <Menu/>
           </main>
   );
 }
